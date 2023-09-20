@@ -27,7 +27,7 @@ const tasks = [
 ];
 
 //ruta para solicitar la lista en formato json
-app.get('/tasks', (_req, res) => {
+app.get('/tasks', (req, res) => {
     res.json(tasks);
 });
 
