@@ -3,8 +3,8 @@ const app = express();
 const port = 8000;
 
 //importando routers 
-const listViewRouter = require("./list-view-router");
-const listEditRouter = require("./list-edit-router");
+const listViewRouter = require("./src/router/list-view-router");
+const listEditRouter = require("./src/router/list-edit-router");
 
 //declarando rutas especificas para los router
 app.use("/list-view", listViewRouter);
