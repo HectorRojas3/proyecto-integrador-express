@@ -10,6 +10,12 @@ const listEditRouter = require("./src/router/list-edit-router");
 app.use("/list-view", listViewRouter);
 app.use("/list-edit", listEditRouter);
 
+//ejemplo
+/* app.get("/this-should-exists", (req, res)=>{
+    res.status(404).send("Not found")
+}); */
+
+
 //lista de tareas 
 const tasks = [
     { id: 1, 
